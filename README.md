@@ -30,3 +30,7 @@ Robust error handling and assertion-based debugging
 
 The library ensures FIFO scheduling across all queues (ready, lock, condition), and handles corner cases such as lock misuse and improper initialization.
 
+### Test Cases
+
+Along with the thread.cc and disk.cc files, there are 5 test cases that were used to run against faulty thread libraries. This test suite was designed to flag issues, and was used to both bug test my own library, and run against a purposely faulty library to see how successful the test cases were.
+
